@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+<title> KaratasWeb - İletişim </title>
+{% endblock head %}
+
+{% block body %}
+<div class="container">
+    <div class="row" style="margin-top: 100px;">
+        <div class="col-sm" style="text-align: center;">
+            <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdUQJmxnPqnGC-b45AQFJcvp5xizYQb0kslTl-Lm7BYLq7prw/viewform?embedded=true"
+            width="640" height="750" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">Loading…
+        </iframe>
+        
+        
+        </div>
+    </div>
+</div>
+
+
+<style>
+    @media only screen and (max-width: 600px) {
+        /* Mobil cihazlarda geçerli olan stillemeler buraya eklenecek */
+        iframe {
+            width: 100%; /* İframe'ın genişliğini mobil cihaz ekranına uyacak şekilde ayarlayın */
+            height: 1000px; /* İstediğiniz yüksekliği belirleyin */
+        }
+    }
+</style>
+{% endblock body %}

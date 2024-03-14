@@ -1,0 +1,153 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1DCD8D; 
+}
+
+body {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    background-color: #1A2529;
+    color: white;
+}
+
+.devbaslik {
+    display: block;
+    color: white;
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+.kucukbaslik {
+    display: block;
+    color: white;
+    font-size: 21px;
+}
+
+.klasikbaslik {
+    display: block;
+    font-size: 36px;
+    color: #1DCD8D;
+    font-weight: bolder;
+}
+
+.nav-link {
+    color: white;
+    font-size: 17px;
+    margin-left: 25px;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: rgb(217, 214, 214);
+}
+
+.yesilbutton {
+    border: none;
+    border-radius: 30px;
+    background-color: #1DCD8D;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.yirmilik {
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.onsekizlik {
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.onaltilik {
+    display: block;
+    font-size: 16px;
+}
+
+.ondortluk {
+    display: block;
+    font-size: 14px;
+}
+
+.onikilik {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.ekiplerkutu {
+    background-color: #263237;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.bilgilendirmekutu {
+    background-color: #263237;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.paketlerkutu {
+    background-color: #263237;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.paketozellik {
+    margin-top: 15px;
+}
+
+.bosluk {
+    display: block;
+    margin-top: 100px;
+}
+
+.kucukbosluk {
+    display: block;
+    margin-top: 50px;
+}
+
+.phoneemailsocial {
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #1DCD8D;
+}
+
+.phoneemailsocialtext {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.sociallink {
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+    transition: 0.4s;
+}
+
+.sociallink:hover {
+    color: #1DCD8D;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .gif {
+        display: none;
+    }
+
+    .main1 {
+        text-align: center;
+    }
+}
